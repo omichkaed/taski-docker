@@ -38,7 +38,7 @@ services:
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static:/frontend_static
-# Добавляем новый контейнер: gateway.
+# Добавляем новый контейнер: gatewayf.
   gateway:
     # Сбилдить и запустить образ, 
     # описанный в Dockerfile в папке gateway
